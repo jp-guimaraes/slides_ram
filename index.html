@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.68.3" />
+    <meta charset="utf-8">
+<title>Memória Primária</title>
+
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="/nomedorepo/reveal-js/css/reset.css">
+<link rel="stylesheet" href="/nomedorepo/reveal-js/css/reveal.css"><link rel="stylesheet" href="/nomedorepo/robot-lung.css" id="theme"><link rel="stylesheet" href="/nomedorepo/highlight-js/color-brewer.min.css">
+    
+  </head>
+  <body>
+    
+    <div class="reveal">
+      <div class="slides">
+  
+
+    <section><h1 id="memória-principal">Memória Principal</h1>
+<p>Organização e Manutenção de Computaores</p>
+<p><a href="https://jp-guimaraes.github.io/">🌐 João Paulo Guimarães</a></p>
+</section>
+
+  
+
+    <section>
+
+<section data-shortcode-section>
+<h1 id="objetivos">Objetivos</h1>
+<p>Conhecer um breve histórico das tecnologias de memória primária</p>
+<p>Entender as características das memórias primárias</p>
+</section><section>
+<h1 id="sumário">Sumário</h1>
+<ol>
+<li>Histórico</li>
+<li>Características das memórias atuais</li>
+<li>Memória virtual</li>
+<li>Dual Channel</li>
+<li>ECC</li>
+</ol>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="histórico">Histórico</h1>
+</section><section>
+<h1 id="célula-de-memória">Célula de memória</h1>
+<p>Capaz de armazenar 1 bit</p>
+<p>Capacitores, transistores</p>
+<p>Flip-flops</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/DRAM_Cell_Structure_%28Model_of_Single_Circuit_Cell%29.PNG/220px-DRAM_Cell_Structure_%28Model_of_Single_Circuit_Cell%29.PNG" alt=""></p>
+</section><section>
+<p><strong>Célula de memória</strong></p>
+<p>Ctrl + C</p>
+<p>Ctrl + V</p>
+<p><em>Memória</em></p>
+</section><section>
+<h1 id="timeline">Timeline</h1>
+<p>Static <strong>RAM</strong> -&gt; SRAM (1963-1995)</p>
+<p>Dynamic <strong>RAM</strong> -&gt; DRAM (1965-2001) <em>refresh</em></p>
+<p>Syncronous Dynamic <strong>RAM</strong>-&gt; SDRAM (1992-2018) <em>clock</em></p>
+<ul>
+<li>DDR, DDR2, DDR3, DDR4</li>
+</ul>
+<p>Memória RAM (Random Access Memory)</p>
+<p>Memória de acesso aleatório</p>
+<p><a href="https://en.wikipedia.org/wiki/Random-access_memory">Leitura complementar</a></p>
+</section><section>
+<h1 id="quiz">Quiz</h1>
+<p>O que significa acesso aleatório?</p>
+<p>Se não é aleatório é o quê?</p>
+</section><section>
+<h1 id="características">Características</h1>
+<p>Alta velocidade</p>
+<p>Alto preço</p>
+<p>Volátil</p>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="memórias-atuais">Memórias atuais</h1>
+</section><section>
+<p><strong>Principais Características</strong></p>
+<ul>
+<li>
+<p>Tecnologia</p>
+<ul>
+<li>DDR<strong>3</strong>,DDR<strong>4</strong></li>
+</ul>
+</li>
+<li>
+<p>Velocidade</p>
+<ul>
+<li>Frequência de trabalho
+4133,3600,1333 <strong>MHZ</strong></li>
+</ul>
+</li>
+<li>
+<p>Capacidade (tamanho em <strong>GB</strong>)</p>
+</li>
+<li>
+<p>Extras</p>
+<ul>
+<li>Dissipador (Ativo ou passivo)</li>
+<li>RGB</li>
+</ul>
+</li>
+<li>
+<p>Tamanho físico</p>
+<ul>
+<li>Laptop/ Notebook</li>
+</ul>
+</li>
+<li>
+<p>Modular ou soldado</p>
+</li>
+</ul>
+</section><section>
+<h1 id="compatibilidade">Compatibilidade</h1>
+<p>Diferenças de tensão e pinagem</p>
+<p><img src="https://www.dicasnainternet.com.br/wp-content/uploads/2014/10/ddr_ddr2_ddr3.png" alt=""></p>
+</section><section>
+<h1 id="dd3-vs-ddr4">DD3 vs DDR4</h1>
+<p><img src="https://www.oficinadanet.com.br/imagens/post/26735/compare_ddr3_ddr4.jpg" alt=""></p>
+</section><section>
+<p><a href="https://www.kabum.com.br/hardware/memoria-ram">Link loja</a></p>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="quiz">Quiz</h1>
+<p>Existe alguma diferença em usar uma memória de 8GB ou duas de 4GB? (ambas com mesma frequência de trabalho)</p>
+</section><section>
+<h1 id="dual-channel">Dual Channel</h1>
+<p>Escrita e leitura de dados em duas memórias para acelerar acesso.</p>
+<p>Semelhante a estratégia do RAID 0</p>
+</section><section>
+<p>Cenário ideal: Pares de memórias idênticas</p>
+<p>Conferir manual da placa (slots apropriados)</p>
+<p><a href="https://www.cpuid.com/softwares/cpu-z.html">Software CPU-z (conferência)</a></p>
+</section><section>
+<h1 id="flex-mode">Flex mode</h1>
+<p>Dual channel com tamanhos de memória diferentes</p>
+<p>Frequência de trabalho limitada pela menor velocidade do conjunto de módulos</p>
+<p><a href="https://www.intel.com.br/content/www/br/pt/support/articles/000005657/boards-and-kits.html">Leitura complementar</a></p>
+</section><section>
+<h1 id="fator-econômico">Fator econômico</h1>
+<p><a href="https://www.kabum.com.br/hardware/memoria-ram">Link loja</a></p>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="ecc">ECC</h1>
+<p>O que é?</p>
+</section><section>
+<h1 id="bit-flip">Bit flip</h1>
+<p>Altitude</p>
+<p>Cosmic rays!</p>
+<p>Menor o tamnho do chip, maior a probabilidade de haver um bitflip</p>
+<p><a href="https://en.wikipedia.org/wiki/Soft_error">Leitura complementar</a></p>
+</section><section>
+<h1 id="aplicação-base">Aplicação base</h1>
+<p>Servidores</p>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="heading">?</h1>
+<p>O que acontece quando toda a memória RAM do sistema é ocupada?</p>
+</section><section>
+<h1 id="memória-virtual">Memória Virtual</h1>
+<p>Paginação</p>
+<p>Memória Flash como memória virtual</p>
+<p>SWAP</p>
+<p>SSD vs HD</p>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="problemas">Problemas</h1>
+<p>O que acontece se um módulo de memória não está funcionando?</p>
+</section><section>
+<h1 id="o-que-fazer">O que fazer?</h1>
+<p>Teste módulo a módulo</p>
+<p>Limpeza com borracha</p>
+<p>Limpa contato</p>
+</section><section>
+<h1 id="memória-ram">Memória RAM</h1>
+<p>Geralmente é o primeiro candidato para testes com ausência do POST</p>
+<p>Usar outro computador com placa-mãe equivalente para validar funcioamento</p>
+
+</section>
+</section>
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=/nomedorepo/reveal-hugo/object-assign.js></script>
+
+<a href="/nomedorepo/reveal-js/css/print/" id="print-location" style="display: none;"></a>
+<script type="text/javascript">
+  var printLocationElement = document.getElementById('print-location');
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = printLocationElement.href + (window.location.search.match(/print-pdf/gi) ? 'pdf.css' : 'paper.css');
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<script type="application/json" id="reveal-hugo-site-params">null</script>
+<script type="application/json" id="reveal-hugo-page-params">{"custom_theme":"robot-lung.css","highlight_theme":"color-brewer","margin":0.2,"transition":"slide","transition_speed":"fast"}</script>
+
+<script src="/nomedorepo/reveal-js/js/reveal.js"></script>
+
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+  
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+  var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams));
+  Reveal.initialize(options);
+</script>
+
+
+  
+  
+  <script type="text/javascript" src="/nomedorepo/reveal-js/plugin/markdown/marked.js"></script>
+  
+  <script type="text/javascript" src="/nomedorepo/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/nomedorepo/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/nomedorepo/reveal-js/plugin/zoom-js/zoom.js"></script>
+  
+  
+  <script type="text/javascript" src="/nomedorepo/reveal-js/plugin/notes/notes.js"></script>
+
+
+
+    
+    
+  </body>
+</html>

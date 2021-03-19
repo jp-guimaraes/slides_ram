@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Memória Primária</title>
+    <link>https://jp-guimaraes.github.io/nomedorepo/home/</link>
+    <description>Recent content in Homes on Memória Primária</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://jp-guimaraes.github.io/nomedorepo/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/nomedorepo/home/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/nomedorepo/home/intro/</guid>
+      <description> Objetivos Conhecer um breve histórico das tecnologias de memória primária
+Entender as características das memórias primárias
+ Sumário  Histórico Características das memórias atuais Memória virtual Dual Channel ECC   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/nomedorepo/home/historico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/nomedorepo/home/historico/</guid>
+      <description>Histórico  Célula de memória Capaz de armazenar 1 bit
+Capacitores, transistores
+Flip-flops
+ Célula de memória
+Ctrl + C
+Ctrl + V
+Memória
+ Timeline Static RAM -&amp;gt; SRAM (1963-1995)
+Dynamic RAM -&amp;gt; DRAM (1965-2001) refresh
+Syncronous Dynamic RAM-&amp;gt; SDRAM (1992-2018) clock
+ DDR, DDR2, DDR3, DDR4  Memória RAM (Random Access Memory)
+Memória de acesso aleatório
+Leitura complementar
+ Quiz O que significa acesso aleatório?
+Se não é aleatório é o quê?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/nomedorepo/home/caracteristicas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/nomedorepo/home/caracteristicas/</guid>
+      <description> Memórias atuais  Principais Características
+  Tecnologia
+ DDR3,DDR4    Velocidade
+ Frequência de trabalho 4133,3600,1333 MHZ    Capacidade (tamanho em GB)
+  Extras
+ Dissipador (Ativo ou passivo) RGB    Tamanho físico
+ Laptop/ Notebook    Modular ou soldado
+   Compatibilidade Diferenças de tensão e pinagem
+ DD3 vs DDR4  Link loja
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/nomedorepo/home/dualchannel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/nomedorepo/home/dualchannel/</guid>
+      <description>Quiz Existe alguma diferença em usar uma memória de 8GB ou duas de 4GB? (ambas com mesma frequência de trabalho)
+ Dual Channel Escrita e leitura de dados em duas memórias para acelerar acesso.
+Semelhante a estratégia do RAID 0
+ Cenário ideal: Pares de memórias idênticas
+Conferir manual da placa (slots apropriados)
+Software CPU-z (conferência)
+ Flex mode Dual channel com tamanhos de memória diferentes
+Frequência de trabalho limitada pela menor velocidade do conjunto de módulos</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/nomedorepo/home/ecc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/nomedorepo/home/ecc/</guid>
+      <description> ECC O que é?
+ Bit flip Altitude
+Cosmic rays!
+Menor o tamnho do chip, maior a probabilidade de haver um bitflip
+Leitura complementar
+ Aplicação base Servidores
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/nomedorepo/home/memoria_virtual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/nomedorepo/home/memoria_virtual/</guid>
+      <description> ? O que acontece quando toda a memória RAM do sistema é ocupada?
+ Memória Virtual Paginação
+Memória Flash como memória virtual
+SWAP
+SSD vs HD
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/nomedorepo/home/problemas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/nomedorepo/home/problemas/</guid>
+      <description> Problemas O que acontece se um módulo de memória não está funcionando?
+ O que fazer? Teste módulo a módulo
+Limpeza com borracha
+Limpa contato
+ Memória RAM Geralmente é o primeiro candidato para testes com ausência do POST
+Usar outro computador com placa-mãe equivalente para validar funcioamento
+ </description>
+    </item>
+    
+  </channel>
+</rss>
