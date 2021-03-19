@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Memória Primária</title>
-    <link>https://jp-guimaraes.github.io/nomedorepo/home/</link>
+    <link>https://jp-guimaraes.github.io/slides_ram/home/</link>
     <description>Recent content in Homes on Memória Primária</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://jp-guimaraes.github.io/nomedorepo/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jp-guimaraes.github.io/slides_ram/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://jp-guimaraes.github.io/nomedorepo/home/intro/</link>
+      <link>https://jp-guimaraes.github.io/slides_ram/home/intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jp-guimaraes.github.io/nomedorepo/home/intro/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_ram/home/intro/</guid>
       <description> Objetivos Conhecer um breve histórico das tecnologias de memória primária
 Entender as características das memórias primárias
  Sumário  Histórico Características das memórias atuais Memória virtual Dual Channel ECC   </description>
@@ -23,10 +23,10 @@ Entender as características das memórias primárias
     
     <item>
       <title></title>
-      <link>https://jp-guimaraes.github.io/nomedorepo/home/historico/</link>
+      <link>https://jp-guimaraes.github.io/slides_ram/home/historico/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jp-guimaraes.github.io/nomedorepo/home/historico/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_ram/home/historico/</guid>
       <description>Histórico  Célula de memória Capaz de armazenar 1 bit
 Capacitores, transistores
 Flip-flops
@@ -46,10 +46,10 @@ Se não é aleatório é o quê?</description>
     
     <item>
       <title></title>
-      <link>https://jp-guimaraes.github.io/nomedorepo/home/caracteristicas/</link>
+      <link>https://jp-guimaraes.github.io/slides_ram/home/caracteristicas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jp-guimaraes.github.io/nomedorepo/home/caracteristicas/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_ram/home/caracteristicas/</guid>
       <description> Memórias atuais  Principais Características
   Tecnologia
  DDR3,DDR4    Velocidade
@@ -64,10 +64,10 @@ Se não é aleatório é o quê?</description>
     
     <item>
       <title></title>
-      <link>https://jp-guimaraes.github.io/nomedorepo/home/dualchannel/</link>
+      <link>https://jp-guimaraes.github.io/slides_ram/home/dualchannel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jp-guimaraes.github.io/nomedorepo/home/dualchannel/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_ram/home/dualchannel/</guid>
       <description>Quiz Existe alguma diferença em usar uma memória de 8GB ou duas de 4GB? (ambas com mesma frequência de trabalho)
  Dual Channel Escrita e leitura de dados em duas memórias para acelerar acesso.
 Semelhante a estratégia do RAID 0
@@ -80,10 +80,10 @@ Frequência de trabalho limitada pela menor velocidade do conjunto de módulos</
     
     <item>
       <title></title>
-      <link>https://jp-guimaraes.github.io/nomedorepo/home/ecc/</link>
+      <link>https://jp-guimaraes.github.io/slides_ram/home/ecc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jp-guimaraes.github.io/nomedorepo/home/ecc/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_ram/home/ecc/</guid>
       <description> ECC O que é?
  Bit flip Altitude
 Cosmic rays!
@@ -95,10 +95,10 @@ Leitura complementar
     
     <item>
       <title></title>
-      <link>https://jp-guimaraes.github.io/nomedorepo/home/memoria_virtual/</link>
+      <link>https://jp-guimaraes.github.io/slides_ram/home/memoria_virtual/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jp-guimaraes.github.io/nomedorepo/home/memoria_virtual/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_ram/home/memoria_virtual/</guid>
       <description> ? O que acontece quando toda a memória RAM do sistema é ocupada?
  Memória Virtual Paginação
 Memória Flash como memória virtual
@@ -109,10 +109,10 @@ SSD vs HD
     
     <item>
       <title></title>
-      <link>https://jp-guimaraes.github.io/nomedorepo/home/problemas/</link>
+      <link>https://jp-guimaraes.github.io/slides_ram/home/problemas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jp-guimaraes.github.io/nomedorepo/home/problemas/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_ram/home/problemas/</guid>
       <description> Problemas O que acontece se um módulo de memória não está funcionando?
  O que fazer? Teste módulo a módulo
 Limpeza com borracha
