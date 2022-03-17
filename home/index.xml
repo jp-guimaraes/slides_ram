@@ -18,7 +18,20 @@
       <guid>https://jp-guimaraes.github.io/slides_ram/home/intro/</guid>
       <description> Objetivos Conhecer um breve histórico das tecnologias de memória primária
 Entender as características das memórias primárias
- Sumário  Histórico Características das memórias atuais Memória virtual Dual Channel ECC   </description>
+ Sumário  Histórico Hierarquia de Memória Características das memórias atuais Memória virtual Dual Channel ECC   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_ram/home/hierarquia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_ram/home/hierarquia/</guid>
+      <description> Hierarquia de memórias  Registrador  Memória Cache  Memória Primária Memória RAM
+ Memória Secundária Menor custo/bit do que memórias primárias
+Não volátil
+Exemplos:
+ Disco rígido Memória Flash Mídias óticas Nuvem   </description>
     </item>
     
     <item>
@@ -27,7 +40,7 @@ Entender as características das memórias primárias
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jp-guimaraes.github.io/slides_ram/home/historico/</guid>
-      <description>Histórico  Célula de memória Capaz de armazenar 1 bit
+      <description>Memória Primária  Célula de memória Capaz de armazenar 1 bit
 Capacitores, transistores
 Flip-flops
  Célula de memória
@@ -37,11 +50,10 @@ Memória
  Timeline Static RAM -&amp;gt; SRAM (1963-1995)
 Dynamic RAM -&amp;gt; DRAM (1965-2001) refresh
 Syncronous Dynamic RAM-&amp;gt; SDRAM (1992-2018) clock
- DDR, DDR2, DDR3, DDR4  Memória RAM (Random Access Memory)
+ DDR, DDR2, DDR3, DDR4, DDR5  Memória RAM (Random Access Memory)
 Memória de acesso aleatório
 Leitura complementar
- Quiz O que significa acesso aleatório?
-Se não é aleatório é o quê?</description>
+ Quiz O que significa acesso aleatório?</description>
     </item>
     
     <item>
@@ -50,16 +62,15 @@ Se não é aleatório é o quê?</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jp-guimaraes.github.io/slides_ram/home/caracteristicas/</guid>
-      <description> Memórias atuais  Principais Características
+      <description>Memórias atuais  Principais Características
   Tecnologia
- DDR3,DDR4    Velocidade
- Frequência de trabalho 4133,3600,1333 MHZ    Capacidade (tamanho em GB)
+ DDR3,DDR4, DDR5    Velocidade
+ Frequência de trabalho 4133,3600,1333 MHZ (entre outras)    Capacidade (tamanho em GB)
   Extras
  Dissipador (Ativo ou passivo) RGB    Tamanho físico
  Laptop/ Notebook    Modular ou soldado
    Compatibilidade Diferenças de tensão e pinagem
- DD3 vs DDR4  Link loja
- </description>
+ DD3 vs DDR4  DDR4 vs DDR5  Tabela comparativa     DDR5 DDR4 DDR3     Capacidade máxima por módulo 128GB 32GB 8GB   Taxa máxima de dados 4,8 ~6,4 Gbps 3,2 Gbps 1,6Gbps   Tensão elétrica 1.</description>
     </item>
     
     <item>
@@ -120,6 +131,25 @@ Limpa contato
  Memória RAM Geralmente é o primeiro candidato para testes com ausência do POST
 Usar outro computador com placa-mãe equivalente para validar funcioamento
  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_ram/home/unifield_memory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_ram/home/unifield_memory/</guid>
+      <description>Unifield Memory O que é?
+ Recaptiluando Posicionamento dos chips DD4 numa placa mãe
+ Controlador de memória Ponte Norte (Placa-mãe)
+Processador
+ Macbooks com chip m1 Esquema lógico
+ Macbooks com chip m1 Implementação
+ Consequências?   Memória mais próxima do processador
+  Compartilhamento de memória entre os diversos processadores
+  Memórias maiores para processadores específicos (GPU)
+  Menor latência, maiores velocidades
+  Performance equivalente a implementações mais custosas em outras arquiteturas</description>
     </item>
     
   </channel>
